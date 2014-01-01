@@ -1,3 +1,14 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 a
 {
 	color: #DD4F24;
@@ -22,7 +33,7 @@ header
 header figure, header h1
 {
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: middle;
 }
 header h1
 {
@@ -36,13 +47,20 @@ header #avatar figcaption
 {
 	background: #22BCE0;
 	float: right;
-	height: 80px;
+	height: 50px;
 	padding: 0 2px;
+	line-height: 50px;
+}
+header #avatar figcaption:after
+{
+	content: "\e602";
+	font-family: "icomoon";
+	font-size: 0.9em;
 }
 header #avatar img
 {
 	float: left;
-	width: 80px;
+	width: 50px;
 }
 
 header #logo img 
@@ -71,13 +89,13 @@ nav ul li a
 {
 	color: white;
 	display: block;
-	padding: 0.5em 0;
+	padding: .5em 0;
 }
 
 nav #flecha_nav a
 {
 	background: #22BCE0;
-	padding: .5em 0.5em;
+	padding: .5em .5em;
 	text-decoration: none;
 }
 nav #publicar
@@ -106,6 +124,15 @@ nav #publicar a
 	color: #7A7A7A;
 	font-size: 0.9em;
 }
+
+#assignments .assignment .assignment_button a
+{
+	background: #22BCE0;
+	border-radius: 0.5em;
+	padding: .2em 1em .2em 1em;
+	color: white;
+	text-decoration: none;
+}
 #assignments .assignment .assignment_img 
 {
 	float: left;
@@ -125,4 +152,10 @@ nav #publicar a
 {
 	color: #444;
 	text-decoration: none;
+}
+#assignments .assignment .assignment_title,
+#assignments .assignment .assignment_description,
+#assignments .assignment .assignment_button
+{
+	margin-left: 100px;
 }
