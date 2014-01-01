@@ -1,0 +1,128 @@
+a
+{
+	color: #DD4F24;
+}
+body 
+{
+	background: #EFEFEF;
+	color: #4C4C4C;
+	font-family: Arial;
+	font-size: 16px;
+	margin: 0;
+}
+
+header
+{
+	background: #434343;
+	color: white;
+	margin: 0;
+	padding: 0.1em;
+}
+
+header figure, header h1
+{
+	display: inline-block;
+	vertical-align: top;
+}
+header h1
+{
+	font-size: 20px;
+	font-weight: normal;
+	margin: 1em 0 0 1em;
+	width: 60%;
+}
+
+header #avatar figcaption
+{
+	background: #22BCE0;
+	float: right;
+	height: 80px;
+	padding: 0 2px;
+}
+header #avatar img
+{
+	float: left;
+	width: 80px;
+}
+
+header #logo img 
+{
+	width: 80px;
+}
+
+nav
+{
+	background: #878787;
+	font-size: 0.9em;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li
+{
+	display: inline-block;
+	margin: 0 1.2em 0 0;
+	vertical-align: top;
+}
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 0.5em 0;
+}
+
+nav #flecha_nav a
+{
+	background: #22BCE0;
+	padding: .5em 0.5em;
+	text-decoration: none;
+}
+nav #publicar
+{
+	float: right;
+	margin-right: 0;
+}
+nav #publicar a
+{
+	background: #DD4F24;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+#assignments
+{
+	margin: 1em;
+}
+#assignments .assignment
+{
+	background: white;
+	border-bottom: 3px #22BCE0 solid;
+}
+#assignments .assignment p 
+{
+	color: #7A7A7A;
+	font-size: 0.9em;
+}
+#assignments .assignment .assignment_img 
+{
+	float: left;
+	margin: 0 1em 0 0;
+}
+#assignments .assignment .assignment_img img 
+{
+	width: 96px;
+}
+#assignments .assignment .assignment_title
+{
+	font-size: 1em;
+	font-style: italic;
+	padding: 0 0.5em 0.5em 0;
+}
+#assignments .assignment .assignment_title a
+{
+	color: #444;
+	text-decoration: none;
+}
